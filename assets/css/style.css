@@ -1,0 +1,107 @@
+body{
+	background-color: ;
+	max-width: 1200;
+	overflow-x: hidden;/* убирает скролл сайта по x */
+	max-height: 100px;
+	margin: 0;
+	overflow: hidden;
+
+}
+
+.name {
+	position: absolute;
+	margin: 0;
+	font-family: 'Permanent Marker', cursive;
+	color: #ededed;
+	z-index: 10;
+	font-size: 20px;
+	left: 40px;
+}
+
+.logo {
+	position: absolute;
+	margin: 0;
+	z-index: 10;
+	color: #ededed;
+	font-size: 100px;
+	font-family: 'Permanent Marker', cursive;
+	left: 630px;
+	top: 120px;
+	border: 0.5px solid #ededed;
+	border-left: 50px;
+	border-right: 50px;
+	opacity: .8;
+}
+
+.logo_change {
+	opacity: .0;
+}
+.qoute {
+	position: absolute;
+	margin: 0;
+	z-index: 10;
+	color: #ededed;
+	font-family: 'Permanent Marker', cursive;
+	left: 630px;
+	top: 280px;
+}
+.video {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	bottom: 0px;
+	z-index: 9;
+}
+
+.button-about {
+	position: absolute;
+	margin: 0;
+	font-size: 40px;
+	width: 300px;
+	font-family: 'Kenia', cursive;
+	opacity: .1;
+	z-index: 10;
+	left: 510px;
+	top: 330px;
+	border: 0.5px solid #ededed;
+    border-radius: 10px;
+}
+.button-about:hover {
+	opacity: .3;
+	background-color: transparent;
+	border-radius: 0px;
+	border-right: 50px;
+	border-left: 50px;
+	color: #ededed;
+}
+
+.button-blog {
+	position: absolute;
+	margin: 0;
+	font-size: 40px;
+	width: 300px;
+	font-family: 'Kenia', cursive;
+	opacity: .1;
+	z-index: 10;
+	left: 510px;
+	top: 400px;
+	border: 0.5px solid #ededed;
+    border-radius: 10px;
+}
+
+.button-blog:hover {
+	opacity: .3;
+	background-color: transparent;
+	border-radius: 0px;
+	border-right: 50px;
+	border-left: 50px;
+	color: #ededed;
+}
+.button-blog:active {
+}
+
+
+
+
+
+
